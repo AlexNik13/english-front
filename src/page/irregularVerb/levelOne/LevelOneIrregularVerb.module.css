@@ -1,0 +1,38 @@
+.level_one_irregular_verb__container{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+.level_one_irregular_verb__three_forms{
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.level_one_irregular_verb__three_forms__question{
+  height: 50px;
+  margin-top: 13px;
+  display: flex;
+}
+
+.level_one_irregular_verb__title{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.level_one_irregular_verb__buttons{
+  display: flex;
+  margin-top: 13px;
+  justify-content: space-between;
+}
+
+.level_one_irregular_verb__btn{
+  background-color: cadetblue;
+  height: 25px;
+  width: 75px;
+  border: none;
+  border-radius: 5px;
+}

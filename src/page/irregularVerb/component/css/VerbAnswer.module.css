@@ -1,0 +1,29 @@
+.verb_answer__title{
+  text-align: center;
+}
+
+.verb_answer{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 100px;
+  margin-top: 5px;
+  border: cadetblue 1px solid;
+  border-radius: 5px;
+  background-color: lavender;
+}
+
+.verb_answer__verb{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.verb_answer__verb__answer__right{
+  background-color: cadetblue;
+}
+
+.verb_answer__verb__answer__mistake{
+  background-color: orangered;
+}

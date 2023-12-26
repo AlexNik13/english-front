@@ -1,0 +1,22 @@
+.verb_question__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 125px;
+  margin-top: 5px;
+  border: cadetblue 1px solid;
+  border-radius: 5px;
+  background-color: aqua;
+  text-align: center;
+  margin-right: 13px;
+}
+
+.verb_question__container:hover{
+  cursor: pointer;
+}
+
+.verb_question__verb{
+  font-size: 18px;
+  font-weight: bold;
+}

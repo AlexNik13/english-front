@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import {Route, Routes} from "react-router-dom";
+import MainLayout from "./page/layout/MainLayout";
+import IrregularVerb from "./page/irregularVerb/IrregularVerb";
+import ChooseLanguage from "./utils/ChooseLanguage";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Routes>
+        <Route element={<MainLayout/>}>
+          <Route path={''} element={<ChooseLanguage/>}/>
+          <Route path={'/:lan'} element={<IrregularVerb/>}/>
+        </Route>
+      </Routes>
   );
 }
 

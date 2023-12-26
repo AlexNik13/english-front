@@ -1,0 +1,17 @@
+.main_layout__header{
+  height: 25px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.main_layout__header__select{
+  height: 20px;
+  font-size: 14px;
+}
+
+.main_layout__container{
+  margin: 13px;
+}
